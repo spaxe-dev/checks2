@@ -1,0 +1,19 @@
+{
+  "name": "vulnerable-api-test",
+  "version": "1.0.0",
+  "description": "Test project with known vulnerable dependencies",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "lodash": "4.17.20",              
+    "express": "4.16.0",              
+    "jquery": "3.4.0",                
+    "handlebars": "4.0.11",           
+    "moment": "2.18.1",               
+    "minimist": "0.0.8",              
+    "debug": "2.6.8",                 
+    "mime": "1.2.11"                  
+  }
+}
